@@ -1,0 +1,374 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <!-- Mobile browser par sahi display ke liye viewport setting -->
+    <meta name="viewport" content="width=1100, initial-scale=0.35, maximum-scale=3.0, user-scalable=yes" />
+    <title>RESULT - Board of Intermediate &amp; Secondary Education, Karachi</title>
+    <style type="text/css">
+        body {
+            background-color: #D2E0DD;
+            font-family: Calibri, Arial, sans-serif;
+            margin: 15px;
+            padding: 0;
+        }
+
+        /* =========================================================
+           LOGO SETTINGS (Yahan se aap logo ka size, margin, padding change kar sakte hain)
+           ========================================================= */
+        .header-logo {
+            width: 165px;          /* Logo ki chaurai (Width) */
+            height: auto;          /* Height auto rahegi taake image kharab na ho */
+            margin-top: 5px;       /* Upar se fasla */
+            margin-bottom: 5px;    /* Neeche se fasla */
+            margin-left: 15px;     /* Left side se fasla */
+            margin-right: 15px;    /* Right side (text) se fasla */
+            padding: 0px;          /* Andaruni padding */
+            border-radius: 0px;    /* Konon ki golai */
+            display: block;
+        }
+
+        /* Main Outer Container */
+        .main-container-table {
+            width: 1050px;
+            border: 1px solid #cccaca;
+            background-color: #ffffff;
+            padding: 16px;
+        }
+
+        /* Student Info Table Styling */
+        .info-table {
+            background-color: #f3f1f1;
+            border: 1px solid #cccaca;
+            font-size: 18px;
+        }
+        .info-table td {
+            padding: 16px 10px;
+        }
+
+        /* Grid & Marks Table Styling */
+        .Grid {
+            background-color: #fff;
+            margin: 10px 0 12px 0;
+            border: solid 1px #525252;
+            border-collapse: collapse;
+            font-family: Calibri, Arial, sans-serif;
+            color: #474747;
+            font-size: 18px;
+        }
+        .Grid td {
+            padding: 16px 10px;
+            border: solid 1px #c1c1c1;
+        }
+        .Grid th {
+            padding: 16px 10px;
+            color: #fff;
+            background-color: #005433;
+            border-left: solid 1px #00331e;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        /* Picture Wala Exact Marks Table Styling */
+        .marks-pic-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #FFFFFF;
+            color: #222222;
+            font-family: Calibri, Arial, sans-serif;
+            font-size: 18px;
+            text-align: center;
+        }
+        .marks-pic-table th, 
+        .marks-pic-table td {
+            border: 1.5px solid #444444;
+            padding: 16px 5px;
+            vertical-align: middle;
+        }
+        .marks-pic-table thead th {
+            background-color: #f4f3e8;
+            color: #111111;
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center !important;
+        }
+        .marks-pic-table .sub-name {
+            text-align: left;
+            font-weight: bold;
+            padding-left: 10px;
+            white-space: nowrap;
+        }
+        .marks-pic-table .total-header {
+            background-color: #f4f3e8;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 1.2;
+        }
+        .marks-pic-table .total-values td {
+            font-weight: bold;
+            font-size: 18px;
+            background-color: #ffffff;
+        }
+
+        .watermark {
+            position: fixed;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-35deg);
+            font-size: 2.5rem;
+            color: rgba(255, 0, 0, 0.50);
+            user-select: none;
+            pointer-events: none;
+            z-index: 9999;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="./Result_Detail?p=930172&amp;q=2&amp;r=2022" id="form1">
+        <div class="aspNetHidden">
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTg3NDAxNDIxNg9kFgICAw9kFhYCAw8PFgIeBFRleHQFIVNTQyBGaXJzdCBBbm51YWwgRXhhbWluYXRpb24gMjAyMmRkAgUPDxYCHwAFBjkzMDE3MmRkAgcPDxYCHwAFCUhBUSBOQVdBWmRkAgkPDxYCHwAFB1JFR1VMQVJkZAILDw8WAh8ABQM2MjJkZAINDw8WAh8ABQRQQVNTZGQCDw8PFgIfAAUJMjAxNCAtIDMxZGQCEQ8PFgQeB0VuYWJsZWRoHgdWaXNpYmxlaGRkAhMPDxYEHwFoHwJoZGQCFQ8PFgQfAWgfAmhkZAIXD2QWAgIBDxYCHgtfIUl0ZW1Db3VudAIIFhACAQ9kFhACAQ8PFgIfAAUURU5HTElTSCAoQ09NUFVMU09SWSlkZAIDDw8WAh8ABQI0OGRkAgUPDxYCHwAFAjIxZGQCBw8PFgIfAGVkZAIJDw8WAh8ABQI2OWRkAgsPDxYCHwAFBTQ2LjAwZGQCDQ8PFgIfAAUBRGRkAg8PDxYCHwAFBFBhc3NkZAICD2QWEAIBDw8WAh8ABRFVUkRVIChDT01QVUxTT1JZKWRkAgMPDxYCHwAFAjQ4ZGQCBQ8PFgIfAAUCMzRkZAIHDw8WAh8AZWRkAgkPDxYCHwAFAjgyZGQCCw8PFgIfAAUFNTUuMDNkZAINDw8WAh8ABQJEK2RkAg8PDxYCHwAFBFBhc3NkZAIDD2QWEAIBDw8WAh8ABRZJU0xBTUlZQVQgKENPTVBVTFNPUlkpZGQCAw8PFgIfAAUCMzJkZAIFDw8WAh8ABQIyN2RkAgcPDxYCHwBlZGQCCQ8PFgIfAAUCNTlkZAILDw8WAh8ABQU1OS4wMGRkAg0PDxYCHwAFAkQrZGQCDw8PFgIfAAUEUGFzc2RkAgQPZBYQAgEPDxYCHwAFHFBBS0lTVEFOIFNUVURJRVMoQ09NUFVMU09SWSlkZAIDDw8WAh8ABQIzMmRkAgUPDxYCHwAFAjE4ZGQCBw8PFgIfAGVkZAIJDw8WAh8ABQI1MGRkAgsPDxYCHwAFBTUwLjAwZGQCDQ8PFgIfAAUCRCtkZAIPDxYCHwAFQRQYXNzZGQCBQ9kFhACAQ8PFgIfAAUYTUFUSEVNQVRJQ1MgKENPTVBVTFNPUlkpZGQCAw8PFgIfAAUCNDdkZAIFDw8WAh8ABQIzM2RkAgcPDxYCHwBlZGQCCQ8PFgIfAAUCODBkZAILDw8WAh8ABQU1My4zM2RkAg0PDxYCHwAFAkQrZGQCDw8PFgIfAAUEUGFzc2RkAgYPZBYQAgEPDxYCHwAFB1BIWVNJQ1NkZAIDDw8WAh8ABQI0NmRkAgUPDxYCHwAFAjM0ZGQCBw8PFgIfAAUCMjVkZAIJDw8WAh8ABQMxMDVkZAILDw8WAh8ABQU3MC4wMGRkAg0PDxYCHwAFAkMrZGQCDw8PFgIfAAUEUGFzc2RkAgcPZBYQAgEPDxYCHwAFCUNIRU1JU1RSWWRkAgMPDxYCHwAFAjM5ZGQCBQ8PFgIfAAUCMzBkZAIHDw8WAh8ABQIyMmRkAgkPDxYCHwAFAjkxZGQCCw8PFgIfAAUFNjAuNjdkZAINDw8WAh8ABQFDZGQCDw8PFgIfAAUEUGFzc2RkAggPZBYQAgEPDxYCHwAFEENPTVBVVEVSIFNDSUVOQ0VkZAIDDw8WAh8ABQIxN2RkAgUPDxYCHwAFAjI3ZGQCBw8PFgIfAAUCNDJkZAIJDw8WAh8ABQI4NmRkAgsPDxYCHwAFBTU3LjMzZGQCDQ8PFgIfAAUCRCtkZAIPDxYCHwAFQRQYXNzZGRk3BxKbBtBf7aA2dD6YciLtWu+xXYugd9YcrfYpxg6gWo=" />
+        </div>
+        <div class="watermark"><br /><br /><br /></div>
+        <div class="aspNetHidden">
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="6E5003F7" />
+        </div>
+
+        <div align="center">
+            <span id="lblMessage" style="color:#990000;"></span>
+            <table class="main-container-table">
+                <tbody>
+                    <tr>
+                        <td class="td2">
+                            <table style="width: 100%;">
+                                <tbody>
+                                    <!-- HEADER WITH TOP-LEFT LOGO -->
+                                    <tr>
+                                        <td>
+                                            <table style="width: 100%; border-collapse: collapse;">
+                                                <tr>
+                                                    <td style="width: 140px; vertical-align: top; text-align: left;">
+                                                        <img src="logo.jpg" alt="Board Logo" class="header-logo" />
+                                                    </td>
+                                                    <td style="text-align: center; vertical-align: middle; padding-right: 140px;">
+                                                        <h3 style="margin: 6px 0; font-size: 28px;">BOARD OF INTERMEDIATE AND SECONDARY EDUCATION KARACHI</h3>
+                                                        <h3 style="margin: 6px 0; font-size: 27px;">RESULT INTIMATION</h3>
+                                                        <h3 style="margin: 6px 0; font-size: 27px;"><u><span id="lbl_ExamName">H.S.C Annual Examination 2012</span></u></h3>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                    <!-- STUDENT DETAILS TABLE -->
+                                    <tr>
+                                        <td style="width: 100%; padding-top: 8px;">
+                                            <table border="1" cellpadding="5" cellspacing="4" width="100%" class="info-table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td width="30%"><b>ROLL NO</b></td>
+                                                        <td><b><span id="lblRollNumber">115459</span></b></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>STUDENT NAME</b></td>
+                                                        <td><b><span id="lblName">MUHAMMAD ASHRAF SHAHID</span></b></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>STUDENT TYPE</b></td>
+                                                        <td><b><span id="lblNameStudentType">REGULAR</span></b></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>GRAND TOTAL</b></td>
+                                                        <td><b><span id="lblTotal">821</span></b></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>STATUS</b></td>
+                                                        <td><b><span id="lblStatus">PASS</span></b></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>FORM-ID (for office use only)</b></td>
+                                                        <td><b><span id="lblFormID">2012 - 31</span></b></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                    <!-- MARKS TABLE (UPDATED ACCORDING TO NEW PICTURE) -->
+                                    <tr>
+                                        <td>
+                                            <div id="Panel4">
+                                                <table cellspacing="0" border="1" cellpadding="0" style="width: 100%" class="Grid">
+                                                    <tbody>
+                                                        <tr>
+                                                            <th style="text-align: center; background-color: #005433; color: #FFFFFF; font-size: 19px;">
+                                                                <b>Details of Marks Obtained By Candidate</b>
+                                                            </th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="text-align: center; background-color: lightgray; padding: 6px;">
+                                                                <table class="marks-pic-table">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th rowspan="2" style="width: 25%; font-size: 17px;">Subject</th>
+                                                                            <th colspan="2" style="width: 20%;">Part-I Marks</th>
+                                                                            <th colspan="2" style="width: 20%;">Part-II Marks</th>
+                                                                            <th colspan="2" style="width: 20%;">Combined</th>
+                                                                            <th rowspan="2" style="width: 7%; font-size: 18px;">%</th>
+                                                                            <th rowspan="2" style="width: 8%; font-size: 16px;">Remarks</th>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>Max.</th>
+                                                                            <th>Secured</th>
+                                                                            <th>Max.</th>
+                                                                            <th>Secured</th>
+                                                                            <th>Max.</th>
+                                                                            <th>Secured</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <!-- URDU NORMAL -->
+                                                                        <tr>
+                                                                            <td class="sub-name">URDU NORMAL</td>
+                                                                            <td>100</td>
+                                                                            <td>79</td>
+                                                                            <td>100</td>
+                                                                            <td>81</td>
+                                                                            <td>200</td>
+                                                                            <td>160</td>
+                                                                            <td>80.0</td>
+                                                                            <td>Pass</td>
+                                                                        </tr>
+                                                                        <!-- ENGLISH NORMAL -->
+                                                                        <tr>
+                                                                            <td class="sub-name">ENGLISH NORMAL</td>
+                                                                            <td>100</td>
+                                                                            <td>65</td>
+                                                                            <td>100</td>
+                                                                            <td>75</td>
+                                                                            <td>200</td>
+                                                                            <td>140</td>
+                                                                            <td>70.0</td>
+                                                                            <td>Pass</td>
+                                                                        </tr>
+                                                                        <!-- ISLAMIC EDUCATION -->
+                                                                        <tr>
+                                                                            <td class="sub-name">ISLAMIC EDUCATION</td>
+                                                                            <td>50</td>
+                                                                            <td>30</td>
+                                                                            <td>50</td>
+                                                                            <td>32</td>
+                                                                            <td>100</td>
+                                                                            <td>62</td>
+                                                                            <td>62.0</td>
+                                                                            <td>Pass</td>
+                                                                        </tr>
+                                                                        <!-- PAKISTAN STUDIES -->
+                                                                        <tr>
+                                                                            <td class="sub-name">PAKISTAN STUDIES</td>
+                                                                            <td>50</td>
+                                                                            <td>31</td>
+                                                                            <td>50</td>
+                                                                            <td>25</td>
+                                                                            <td>100</td>
+                                                                            <td>56</td>
+                                                                            <td>56.0</td>
+                                                                            <td>Pass</td>
+                                                                        </tr>
+                                                                        <!-- MATHEMATICS -->
+                                                                        <tr>
+                                                                            <td class="sub-name">MATHEMATICS</td>
+                                                                            <td>100</td>
+                                                                            <td>70</td>
+                                                                            <td>100</td>
+                                                                            <td>65</td>
+                                                                            <td>200</td>
+                                                                            <td>135</td>
+                                                                            <td>67.5</td>
+                                                                            <td>Pass</td>
+                                                                        </tr>
+                                                                        <!-- PHYSICS -->
+                                                                        <tr>
+                                                                            <td class="sub-name">PHYSICS</td>
+                                                                            <td>75</td>
+                                                                            <td>55</td>
+                                                                            <td>75</td>
+                                                                            <td>60</td>
+                                                                            <td>150</td>
+                                                                            <td>115</td>
+                                                                            <td>76.7</td>
+                                                                            <td>Pass</td>
+                                                                        </tr>
+                                                                        <!-- CHEMISTRY -->
+                                                                        <tr>
+                                                                            <td class="sub-name">CHEMISTRY</td>
+                                                                            <td>75</td>
+                                                                            <td>52</td>
+                                                                            <td>75</td>
+                                                                            <td>56</td>
+                                                                            <td>150</td>
+                                                                            <td>108</td>
+                                                                            <td>72.0</td>
+                                                                            <td>Pass</td>
+                                                                        </tr>
+
+                                                                        <!-- TOTAL SECTION (2 ROWS) -->
+                                                                        <tr class="total-header">
+                                                                            <td rowspan="2" style="font-size: 20px; font-weight: bold;">Total</td>
+                                                                            <td>Max Marks I</td>
+                                                                            <td>Secured Marks I</td>
+                                                                            <td>Max Marks II</td>
+                                                                            <td>Secured Marks II</td>
+                                                                            <td>Total Max Marks</td>
+                                                                            <td>Total Sec. Marks</td>
+                                                                            <td>Over All %</td>
+                                                                            <td>Grade</td>
+                                                                        </tr>
+                                                                        <tr class="total-values">
+                                                                            <td>550</td>
+                                                                            <td>382</td>
+                                                                            <td>550</td>
+                                                                            <td>394</td>
+                                                                            <td>1100</td>
+                                                                            <td>776</td>
+                                                                            <td>70.5</td>
+                                                                            <td>A</td>
+                                                                        </tr>
+
+                                                                        <!-- IN WORDS ROW -->
+                                                                        <tr>
+                                                                            <td style="font-weight: bold; font-size: 17px; background-color: #f4f3e8; text-align: left; padding-left: 10px;">In Words</td>
+                                                                            <td colspan="8"></td>
+                                                                        </tr>
+
+                                                                        <!-- GRADE/GRADE RAISED ROW -->
+                                                                        <tr>
+                                                                            <td style="font-weight: bold; font-size: 16px; background-color: #f4f3e8; text-align: left; padding-left: 10px;">Grade/Grade Raised</td>
+                                                                            <td colspan="8"></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <!-- FOOTER -->
+                                    <tr>
+                                        <td style="text-align: Center; padding: 12px; font-size: 13px;" class="auto-style4">
+                                            © www.bisekarachi.edu.pk | Developed by Computer Cell BISE KHI
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
